@@ -1,10 +1,11 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
 
-# Virtual environment
+# Virtual environments
 venv/
+.venv/
 .env/
 *.env
 Pipfile
