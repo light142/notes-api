@@ -2,10 +2,7 @@
     "builds": [
         {
             "src": "notes_project/wsgi.py",
-            "use": "@vercel/python",
-            "config": {
-                "runtime": "python3.10"
-            }
+            "use": "@vercel/python"
         }
     ],
     "routes": [
@@ -17,5 +14,8 @@
                 "Access-Control-Allow-Methods": "GET, POST, OPTIONS, DELETE, PUT"
             }
         }
-    ]
+    ],
+    "env": {
+        "PYTHON_VERSION": "3.10"
+    }
 }
